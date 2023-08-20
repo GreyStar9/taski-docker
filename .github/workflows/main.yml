@@ -58,6 +58,6 @@ jobs:
       - name: Push to DockerHub
         uses: docker/build-push-action@v4
         with:
-          context: ./taski_backend/
+          context: ./backend/
           push: true
           tags: greystar9/taski_backend:latest
