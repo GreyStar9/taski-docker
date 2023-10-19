@@ -60,7 +60,7 @@ jobs:
         with:
           context: ./backend/
           push: true
-          tags: greystar9/kittygram_backend:latest
+          tags: greystar9/taski_backend:latest
   frontend_tests:
     runs-on: ubuntu-latest
 
